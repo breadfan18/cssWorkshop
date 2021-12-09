@@ -125,3 +125,25 @@ footer div {
 #tags p:first-child{
     background-color: black;    
 }
+
+@media (max-width: 650px){
+    .menuItems{
+        max-width: 500px;
+    }
+
+    #chefSection img {
+        height: 50vh;
+    }
+
+    #chefSection img {
+        width: 90%;
+        height: 80%;
+    }
+
+}
+
+@media (max-width: 1800px) {
+    body {
+        max-width: 95%;
+    }
+}
