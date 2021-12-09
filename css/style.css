@@ -1,2 +1,127 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    /* border: 2px solid red; */
+    /* create a border around a box or padding, the sizing of the border or padding will be within the box.  */
+}
+
+body {
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#mySidebar {
+    display: none;
+}
+
+#menuContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menuItems {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 5px 8px;
+}
+
+h3 {
+    font-size: 25px;
+    font-size: bold;
+    margin-bottom: 15px;
+}
+
+.menuItems p {
+    padding: 0 8px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-bottom: 65px;
+}
+
+.pagination {
+    margin: 60px 0;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 4px 10px;
+}
+
+.pagination a:nth-child(2) {
+    background-color: black;
+    color: white;
+}
+
+.pagination a:hover {
+    background-color: black;
+    color: white;
+}
+
+hr {
+    opacity: 30%;
+}
+
+#chefSection {
+    margin: 50px 0;
+}
+
+#chefSection * {
+    margin: 20px 0;
+}
+
+#chefSection div h4 {
+    font-size: 20px;
+}
+
+i {
+    font-size: 15px;
+}
+
+footer {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+footer div {
+    max-width: 400px;
+    text-align: left;
+    margin: 0 30px;
+}
+
+.blogPosts ul li {
+    list-style: none;
+    display: flex;
+    margin: 15px 0;
+}
+
+#tags {
+    margin-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tags p {
+    background-color: rgb(71, 70, 70);
+    color: white;
+    margin: 4px 10px;
+    padding: 2px 4px;
+}
+
+#tags p:first-child{
+    background-color: black;
+}
